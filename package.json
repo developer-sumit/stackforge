@@ -1,0 +1,36 @@
+{
+  "name": "stackforge",
+  "version": "1.0.0",
+  "description": "Universal project scaffolder for React, React Native, Expo, Next.js & more—automatically bootstraps full boilerplate with zero manual setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "echo \"Build completed\"",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stackforge",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Sumit Singh Rathore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-sumit/stackforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/developer-sumit/stackforge/issues"
+  },
+  "homepage": "https://github.com/developer-sumit/stackforge#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ]
+}
